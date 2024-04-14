@@ -10,10 +10,14 @@ Na linha 2  temos a importação de componentes fundamentais para o desenvolviem
 ```javascript
 import { Button, View, Text } from 'react-native';
 ```
-Abaixo temos a criação de um compoenente React Native denominado RedButton
+Abaixo temos a criação de um compoenente React Native denominado RedButton.
+
 `render(){} é uma função que ajuda a exibir componenetes retornados`
+
 `return() é uma função que ajuda a retornar.`
+
 `<View></View> é um componente para visualização nativa.`
+
 `<Button></Button> é um componente para criar botão.`
 
 ```javascript
@@ -29,13 +33,20 @@ render() {
 }
 ```
 Abaixo temos a exportação de uma classe padrão denominada **App (principal compoenente do qual todos os outros componenetes devem estar dentro.)** que estende a classe **Compoenent**.
-`render(){} é uma função que ajuda a exibir componenetes retornados` /n
-`return() é uma função que ajuda a retornar.` /n
+
+`render(){} é uma função que ajuda a exibir componenetes retornados` 
+
+`return() é uma função que ajuda a retornar.` 
+
 `<View></View> é um componente para visualização nativa.`
+
 `<Text></Text> é um componente para criar texto.`
+
 `style={{}} é um atributo para estilizar o componente. Você pode ver dois {{ }} porque um {} diz que escreveremos código javascript. O outro {} é para o objeto json.
 `
+
 `<RedButton /> Chama uma classe externa denominada RedButton.`
+
 ```javascript
 export default class App extends Component {
   render() {
@@ -48,4 +59,5 @@ export default class App extends Component {
   }
 }
 ```
+
 `Uma função de renderização pode retornar apenas um componente React. Se houver mais de um componente React que precise ser retornado, eles devem ser aninhados dentro de View`
