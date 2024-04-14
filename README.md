@@ -29,8 +29,8 @@ render() {
 }
 ```
 Abaixo temos a exportação de uma classe padrão denominada **App (principal compoenente do qual todos os outros componenetes devem estar dentro.)** que estende a classe **Compoenent**.
-`render(){} é uma função que ajuda a exibir componenetes retornados`
-`return() é uma função que ajuda a retornar.`
+`render(){} é uma função que ajuda a exibir componenetes retornados` /n
+`return() é uma função que ajuda a retornar.` /n
 `<View></View> é um componente para visualização nativa.`
 `<Text></Text> é um componente para criar texto.`
 `style={{}} é um atributo para estilizar o componente. Você pode ver dois {{ }} porque um {} diz que escreveremos código javascript. O outro {} é para o objeto json.
@@ -48,4 +48,4 @@ export default class App extends Component {
   }
 }
 ```
-[— uma função de renderização pode retornar apenas um componente React. Se houver mais de um componente React que precise ser retornado, eles devem ser aninhados dentro de View]
+`Uma função de renderização pode retornar apenas um componente React. Se houver mais de um componente React que precise ser retornado, eles devem ser aninhados dentro de View`
